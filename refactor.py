@@ -8,6 +8,19 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 
+# Inject CSS for sidebar width
+st.markdown(
+    """
+    <style>
+        /* Sidebar width */
+        [data-testid="stSidebar"] {
+            min-width: 450px;   /* default: ~250px */
+            max-width: 450px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 #choice1 = int(input("Enter your choice 1. Groq 2.OpenAI: "))
 #if choice1 == 1:
 client = Groq(
