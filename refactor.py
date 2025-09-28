@@ -1,7 +1,6 @@
 import streamlit as st
 from io import StringIO
 from dotenv import load_dotenv
-from openai import OpenAI
 from groq import Groq
 import requests
 from datetime import datetime
