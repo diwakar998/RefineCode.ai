@@ -2,3 +2,11 @@ groq
 streamlit
 python-dotenv
 requests
+streamlit>=1.37.0
+python-dotenv>=1.0.1
+groq>=0.5.0
+requests>=2.31.0
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.1
+numpy>=1.26.4
+textstat>=0.7.3
